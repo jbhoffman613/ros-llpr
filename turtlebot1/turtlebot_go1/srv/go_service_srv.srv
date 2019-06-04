@@ -1,5 +1,0 @@
-std_msgs/Int16 num
----
-geometry_msgs/Pose end
-sensor_msgs/Image img
-
