@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="turtlebot_go1" type="go_service.py" name="go" output="screen">
+    <rosparam param="pos0"> [0.50, 0.11]  </rosparam>
+    <rosparam param="pos1"> [0.49, -0.55]  </rosparam>
+    <rosparam param="pos2"> [-2.78, -4.50] </rosparam>
+    <rosparam param="pos3"> [-0.42, -4.80] </rosparam>
+    <rosparam param="pos4"> [-0.05, -3.61] </rosparam>
+
+    <rosparam param="start"> [0.50, 0.11] </rosparam>
+  </node>
+</launch>

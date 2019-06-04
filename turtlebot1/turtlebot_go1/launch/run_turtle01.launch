@@ -1,0 +1,7 @@
+<launch>
+  <group ns="turtlebot01">
+    <include file="$(find kobuki_node)/launch/robot_with_tf.launch"/>
+
+    <include file="$(find turtlebot_navigation)/launch/amcl_demo.launch"/>
+  </group>
+</launch>
